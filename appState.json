@@ -1,0 +1,102 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "dfe03ab3-5fe0-4260-9645-7892fa610df2": {
+        "id": "dfe03ab3-5fe0-4260-9645-7892fa610df2",
+        "parent": null,
+        "name": "iop.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "iop.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapSoutheast1indunilcalteststgingindpost",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "dfe03ab3-5fe0-4260-9645-7892fa610df2"
+    ],
+    "currentFileId": "dfe03ab3-5fe0-4260-9645-7892fa610df2",
+    "resources": {
+      "apigapSoutheast1indunilcalteststgingindpost": {
+        "name": "apigapSoutheast1indunilcalteststgingindpost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-southeast-1",
+          "apiMode": 1,
+          "apiName": "indunilcal",
+          "apiId": "8hstb337g4",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "5cr8b5rbnj",
+          "existingResources": {
+            "/test": "1aky2r",
+            "/": "5cr8b5rbnj",
+            "/test/stging/ind": "g7bynt",
+            "/test/stging": "r5a0q0"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/test/stging/ind",
+          "resourceName": "test/stging/ind",
+          "resourceId": "g7bynt",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "qa",
+          "stageDeploymentId": "p102mr",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "sin-indu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-southeast-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1582872444245
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sin-indu",
+      "url": "https://github.com/Indunil1992/sin-indu"
+    }
+  }
+}
